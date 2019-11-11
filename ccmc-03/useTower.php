@@ -1,3 +1,13 @@
+<?php
+require_once("class/Tower.php");
+$tokyoTower = new Tower("東京タワー",333,1958);
+echo "<pre>";
+var_dump($tokyoTower);
+echo"</pre>";
+exit(0);
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -11,7 +21,7 @@
 <body>
 	<h1>Towerクラスを利用する</h1>
 	<dl>
-		<dt>$this->name</dt>
+		<dt>東京タワー</dt>
 		<dd>東京タワー の高さは 333 mで 1958 年に開業しました。</dd>
 	</dl>
 	<dl>
